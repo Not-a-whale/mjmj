@@ -2,7 +2,7 @@
   <mj-body>
     <mj-section background-color="#fff" padding-bottom="0">
       <mj-column width="30%" padding="0">
-        <mj-image height="60px" width="170px" align="left"  src="./assets/images/euclublogo.png" padding="0"></mj-image>
+        <mj-image align="left"  src="./assets/images/euclublogo.png" padding="0"></mj-image>
       </mj-column>
       <mj-group>
         <mj-column width="70.64%">
