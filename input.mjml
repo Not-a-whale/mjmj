@@ -2,89 +2,62 @@
   <mj-body>
 
     <!-- Company Header -->
-    <mj-section background-color="#f0f0f0">
-      <mj-column>
-        <mj-text font-style="italic" font-size="20px" color="#626262">
-          My Company
+    <mj-section background-color="#f0f0f0" padding-bottom="0">
+      <mj-column width="33.33%">
+        <!-- First column content -->
+        <mj-image padding="0" src="./assets/images/European_Club_Association_logo.png"></mj-image>
+      </mj-column>
+      <mj-group>
+        <mj-column width="66.64%">
+          <!-- Second column content -->
+          <mj-text line-height="10px" padding='0 15px'>
+            <h2>
+              Hey Title!
+            </h2>
+            <h3>
+              Office Manager
+            </h3>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section background-color="#f0f0f0" padding-top="0" padding-right="0">
+      <mj-column width='36%'>
+        <!-- First column content -->
+        <mj-spacer height="40px" />
+        <mj-text line-height="4px" font-weight="400" padding="0 0 0 40px">
+          www.ecaeurope.com
+        </mj-text>
+      </mj-column>
+      <mj-column width="5%" padding='0'>
+        <mj-spacer height="10px" />
+        </mj-spacer>
+        <mj-image padding="0" width="15px" src="./assets/images/phone.png"></mj-image>
+        <mj-spacer height="15px" />
+        <mj-image padding="0" width="15px" src="./assets/images/mail.png"></mj-image>
+      </mj-column>
+      <mj-column width="29%">
+        <mj-spacer height="10px" />
+        </mj-spacer>
+        <mj-text font-weight="400" padding="0">
+          +41 (0)78 896 15 26
+        </mj-text>
+        <mj-spacer height="15px" />
+        <mj-text font-weight="400" padding="0">
+          john@ecaeurope.com
+        </mj-text>
+      </mj-column>
+      </mj-column>
+      <mj-column width='29%'>
+        <mj-spacer height="10px" />
+        <mj-text font-weight="400" padding="0">
+          Route de St-Cergue 9
+        </mj-text>
+        <mj-spacer height="15px" />
+        <mj-text font-weight="400" padding="0">
+          1260 Nyon, Switzerland
         </mj-text>
       </mj-column>
     </mj-section>
-
-    <!-- Image Header -->
-    <mj-section background-url="https://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg" background-size="cover" background-repeat="no-repeat">
-
-      <mj-column width="600px">
-
-        <mj-text align="center" color="#fff" font-size="40px" font-family="Helvetica Neue">Slogan here</mj-text>
-
-        <mj-button background-color="#F63A4D" href="#">
-          Promotion
-        </mj-button>
-
-      </mj-column>
-
-    </mj-section>
-
-    <!-- Introduction Text -->
-    <mj-section background-color="#fafafa">
-      <mj-column width="400px">
-
-        <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">My Awesome Text</mj-text>
-
-        <mj-text color="#525252">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
-        </mj-text>
-
-        <mj-button background-color="#F45E43" href="#">Learn more</mj-button>
-
-      </mj-column>
-    </mj-section>
-
-    <!-- 2 columns section -->
-    <mj-section background-color="white">
-
-      <!-- Left image -->
-      <mj-column>
-        <mj-image width="200px" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
-      </mj-column>
-
-      <!-- right paragraph -->
-      <mj-column>
-        <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">
-          Find amazing places
-        </mj-text>
-
-        <mj-text color="#525252">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.</mj-text>
-
-      </mj-column>
-    </mj-section>
-
-    <!-- Icons -->
-    <mj-section background-color="#fbfbfb">
-      <mj-column>
-        <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x0l.png" />
-      </mj-column>
-      <mj-column>
-        <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x01.png" />
-      </mj-column>
-      <mj-column>
-        <mj-image width="100px" src="https://191n.mj.am/img/191n/3s/x0s.png" />
-      </mj-column>
-    </mj-section>
-
-    <!-- Social icons -->
-    <mj-section background-color="#e7e7e7">
-      <mj-column>
-        <mj-social>
-          <mj-social-element name="facebook" />
-          <mj-social-element name="linkedin" />
-          <mj-social-element name="twitter" />
-          <mj-social-element name="tumblr" />
-          <mj-social-element name="pinterest" />
-        </mj-social>
-      </mj-column>
-    </mj-section>
-
   </mj-body>
 </mjml>
