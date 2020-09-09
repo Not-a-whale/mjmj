@@ -1,55 +1,52 @@
 <mjml>
   <mj-body>
-
     <!-- Company Header -->
-    <mj-section background-color="#f0f0f0" padding-bottom="0">
-      <mj-column width="33.33%">
+    <mj-section background-color="#fff" padding-bottom="0">
+      <mj-column width='170px' >
         <!-- First column content -->
-        <mj-image align="center" padding="0" src="./assets/images/European_Club_Association_logo.png"></mj-image>
+        <mj-image height="60px" align='left'  src="./assets/images/European_Club_Association_logo.png"></mj-image>
       </mj-column>
       <mj-group>
-        <mj-column width="66.64%" >
+        <mj-column width='70.64%' background-color="#777">
           <!-- Second column content -->
-          <mj-text line-height="10px" padding='0 15px' align="center">
-            <h2>
+          <mj-text line-height="10px" padding-right='50px' align='left'>
+            <h2 align='left'>
               Hey Title!
             </h2>
-            <h3>
+            <h3 align='left'‹>
               Office Manager
             </h3>
-          </mj-text>
-        </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="#f0f0f0" padding-top="0" padding-right="0">
+    <mj-section background-color="#fff" padding-top="0" padding-right="0">
 
-      <mj-column width='36%'>
+      <mj-column>
         <!-- First column content -->
         <mj-spacer height="30px" />
-        <mj-text line-height="4px" align="center" font-weight="400" >
+        <mj-text line-height="4px" font-weight="400" padding='0 0 0 0' >
           www.ecaeurope.com
         </mj-text>
       </mj-column>
-      <mj-column width="5%" padding='0'>
+      <mj-column width="10%" padding-left='40px'>
         <mj-spacer height="10px" />
         </mj-spacer>
-        <mj-image padding="0" align="center" width="15px" src="./assets/images/phone.png"></mj-image>
+        <mj-image padding="0" width="15px" src="./assets/images/phone.png"></mj-image>
         <mj-spacer height="15px" />
         <mj-image padding="0" width="15px" src="./assets/images/mail.png"></mj-image>
       </mj-column>
       <mj-column width="30%">
         <mj-spacer height="10px" />
         </mj-spacer>
-        <mj-text font-weight="400" padding="0" align="center">
+        <mj-text font-weight="400" padding="0">
           +41 (0)78 896 15 26
         </mj-text>
         <mj-spacer height="15px" />
-        <mj-text font-weight="400" padding="0" align="center">
+        <mj-text font-weight="400" padding="0" >
           john@ecaeurope.com
         </mj-text>
       </mj-column>
       </mj-column>
-      <mj-column width='28%'>
+      <mj-column width='15%'>
         <mj-spacer height="10px" />
         <mj-text font-weight="400" padding="0" align="center">
           Route de St-Cergue 9
